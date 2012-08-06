@@ -8,11 +8,17 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
-  <div class="image-top">&nbsp;</div>
+  <div class="image-top">
+    <%= image_tag 'globasico_logo.jpg', :class => 'globasico-logo' %>
+    <div class="slogan">"Welcome to the virtual tool that will allow you to obtain detailed information, accurate and reliable Industrial Real Estate Market in Tijuana, Mexico."</div>
+  </div>
   <div class="top-menu">
     <%= render :partial => 'shared/main_menu' %>
   </div>
-<%= yield %>
+
+  <div class="main-content">
+    <%= yield %>
+  </div>
 
 </body>
 </html>
