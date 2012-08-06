@@ -10,6 +10,7 @@ gem 'refinerycms'
 gem 'refinerycms-i18n'
 gem 'capistrano'
 gem 'rvm-capistrano'
+gem 'execjs'
 
 # Gems used only for assets and not required
 # in production environments by default.
